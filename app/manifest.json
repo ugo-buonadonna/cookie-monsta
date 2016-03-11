@@ -1,8 +1,8 @@
 {
-  "name": "__MSG_appName__",
+  "name": "Cookie Monsta",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "__MSG_appDescription__",
+  "description": "Cookie policy automatic accepter",
   "icons": {
     "16": "images/icon-16.png",
     "128": "images/icon-128.png"
@@ -10,8 +10,8 @@
   "default_locale": "en",
   "background": {
     "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
+      "scripts.babel/chromereload.js",
+      "scripts.babel/background.js"
     ]
   },
   "permissions": [
@@ -28,7 +28,8 @@
         "https://*/*"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "lib/jquery-2.2.1.min.js",
+        "scripts.babel/contentscript.js"
       ],
       "run_at": "document_end",
       "all_frames": false

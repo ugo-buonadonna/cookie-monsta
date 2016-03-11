@@ -1,0 +1,5 @@
+repubblica.it: <div> cookie.... <a> OK </a> </div>
+livesicilia.it: <p>Questo sito utilizza cookie di profilazione per inviarti pubblicità in linea con le tue preferenze...Se vuoi saperne di più
+<a href="http://livesicilia.it/disclaimer/" style="margin:0; padding:0">clicca qui</a>.
+Se accedi a un qualunque elemento sottostante questo banner acconsenti all"uso dei cookie.<a href="" class="cb-enable" id="pol-cookie" onclick="scriviCookie('cb-enabled','accepted',60);">Accetto</a>
+<a href="http://livesicilia.it/disclaimer/" class="cb-policy">Ulteriori informazioni</a></p>
